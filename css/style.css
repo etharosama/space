@@ -1,0 +1,174 @@
+body {
+  margin: 0px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* --------------------------------------- الشريط الي فوق --------------------------------------- */
+.top {
+  height: 15%;
+  width: 100%;
+  background: #161616;
+  position: fixed;
+  top: 0px;
+}
+
+.me {
+  height: 100px;
+  position: absolute;
+  left: 20%;
+  top: 5px;
+  height: 90%;
+}
+
+.top1 {
+  position: absolute;
+  top: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+}
+.top1:hover{
+  color: #5e6073;
+}
+.main {
+  left: 35%;
+}
+
+.contact {
+  left: 50%;
+}
+
+.we {
+  left: 65%;
+}
+
+/* -----------------------------------------------------الشريط الي في الجنب ----------------------------------------------------*/
+.bottom {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 170px;
+  height:
+  /* background-color: #161616; */
+  /*  padding: 5px;
+  color: white;
+  font-size: 10px;*/
+  font-family: cursive;
+}
+
+.cont {
+  height: 50px;
+}
+
+.face {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  /*bottom: 35px;
+  left: 147px;*/
+}
+
+.link {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.email {
+  position: absolute;
+  bottom: 0px;
+  right: 35%;
+}
+
+/* ---------------------------------------------------- الصفحه الرئسيه ----------------------------------------------------*/
+h1 {
+  position: absolute;
+  left: 22%;
+  top: 15%;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin-bottom: 0rem;
+}
+
+.sec1 {
+  padding: 8px;
+  background-image: url('background-image.jpg');
+  background-repeat: no-repeat;
+  height: 500.594px;
+  background-size: contain;
+  color: white;
+  width: 100%;
+  background-color: #161616;
+  background-position-x: 80%;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+
+#contsec1 {
+  position: absolute;
+  bottom: 35%;
+  left: 25%;
+  font-family: cursive;
+  font-size: 1.5rem ;
+  color: white;
+  font-weight: normal;
+
+}
+h3 ,h2{
+  color: #222831 ;
+}
+
+.last {
+  height: 100px;
+  margin: 10px;
+
+}
+.beauty-row{
+  width: 50% ;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+.me2  {
+  width: 25% ;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+}
+.me3{
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+
+}
+hr{
+  border: none ;
+  border-top: 10px dotted #393e46;
+  align-items: center;
+  width: 10% ;
+}
+p{
+  line-height: 2;
+}
+.me1{
+  width: 25% ;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.s:hover{
+  color: #5e6073;
+}
+/*---------------------------------------who we are ------------------------------------------------------------*/
+
+.me4 {
+  width: 25% ;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.weare {
+  width: 50% ;
+  margin: 100px auto 100px;
+  text-align: left;
+}
